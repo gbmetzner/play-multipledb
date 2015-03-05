@@ -7,4 +7,5 @@ target
 /.sbtserver
 project/.sbtserver
 project/.sbtserver.lock
+/logs
 .DS_STORE

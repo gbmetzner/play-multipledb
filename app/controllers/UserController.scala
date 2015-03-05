@@ -13,7 +13,7 @@ object UserController extends Controller {
 
       UserService.insert(User(None, name))(name)
 
-      Ok("saved")
+      Ok(s"Logged: $name")
   }
 
 }
